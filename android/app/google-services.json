@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "290375804671",
+    "project_id": "famity-bd18e",
+    "storage_bucket": "famity-bd18e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290375804671:android:8124b51366c1fc9560ceca",
+        "android_client_info": {
+          "package_name": "com.example.famity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGi6rT1BSWXdfUhbeLjF7jM7XRi6d2haI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
