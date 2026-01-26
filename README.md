@@ -94,7 +94,7 @@ Built with ❤️ using **Flutter** and **Supabase**.
 Flutter Developer | App Builder | Indie Creator  
 
 - GitHub: https://github.com/akshaypatra00
-- LinkedIn: (add your LinkedIn link)
+- LinkedIn: https://www.linkedin.com/in/akshaypatra/
 
 ---
 
