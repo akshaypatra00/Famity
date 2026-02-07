@@ -8,7 +8,7 @@ import 'package:famity/pages/splash_screen.dart';
 import 'package:famity/pages/login_page.dart';
 import 'package:famity/pages/signup_page.dart';
 import 'package:famity/pages/home_screen.dart';
-import 'package:f/join_profile_setup_page.dart';
+import 'package:f/join_profile_
 import 'package:famity/pages/onboarding_screen.dart';
 import 'package:famity/pages/upload_ima/upload_video_page.dart';
 import 'package:famity/pages/view_images_page.dart';
