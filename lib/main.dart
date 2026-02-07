@@ -1,16 +1,21 @@
-;
+import 'dart:async';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:supabase_flutter/supabase_flutter
-import 'package:firebase_messaging/firebase_messaging.da
+import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 // Pages
 import 'package:famity/pages/splash_screen.dart';
 import 'package:famity/pages/login_page.dart';
 import 'package:famity/pages/signup_page.dart';
 import 'package:famity/pages/home_screen.dart';
-import 'package:f/join_profile_
+import 'package:famity/pages/join_profile_setup_page.dart';
 import 'package:famity/pages/onboarding_screen.dart';
-import 'package:famity/pages/upload_ima/upload_video_page.dart';
+import 'package:famity/pages/upload_image_page.dart';
+import 'package:famity/pages/upload_video_page.dart';
 import 'package:famity/pages/view_images_page.dart';
 import 'package:famity/pages/view_videos_page.dart';
 import 'package:famity/pages/view_members_page.dart';
