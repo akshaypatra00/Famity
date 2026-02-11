@@ -8,11 +8,6 @@ class FamilyChatPage extends StatefulWidget {
 
   String? myProfileImage;
   bool profileLoaded = false;
-
-  /// 🔥 Local optimistic messages
-  final List<Map<String, dynamic>> _localMessages = [];
-
-  @override
   void initState() {
     super.initState();
     _loadMyProfile();
