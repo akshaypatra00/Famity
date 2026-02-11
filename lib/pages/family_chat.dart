@@ -11,9 +11,7 @@ class FamilyChatPage extends StatefulWidget {
   void initState() {
   }
 
-  Future<void> _loadMyProfile() async {
-    final user = supabase.auth.currentUser;
-    if (user == null) return;
+  Future<void> _loadMyProfile() async 
 
     final profile = await supabase
         .from('user')
