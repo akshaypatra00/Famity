@@ -10,10 +10,6 @@ class FamilyChatPage extends StatefulWidget {
   bool profileLoaded = false;
   void initState() {
   }
-
-  Future<void> _loadMyProfile() async 
-
-    final profile = await supabase
         .from('user')
         .select('name, profile_image_url')
         .eq('user_id', user.id)
