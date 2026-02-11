@@ -6,10 +6,32 @@ class FamilyChatPage extends StatefulWidget {
 
   const FamilyChatPage({super.key, required this.familyCode});
 
+  @override
+  State<FamilyChatPage> createState() => _FamilyChatPageState();
+}
+
+class _FamilyChatPageState extends State<FamilyChatPage> {
+  final supabase = Supabase.instance.client;
+  final TextEditingController _controller = TextEditingController();
+
+  String? myName;
   String? myProfileImage;
   bool profileLoaded = false;
+
+  /// 🔥 Local optimistic messages
+  final List<Map<String, dynamic>> _localMessages = [];
+
+  @override
   void initState() {
+    super.initState();
+    _loadMyProfile();
   }
+
+  Future<void> _loadMyProfile() async {
+    final user = supabase.auth.currentUser;
+    if (user == null) return;
+
+    final profile = await supabase
         .from('user')
         .select('name, profile_image_url')
         .eq('user_id', user.id)
