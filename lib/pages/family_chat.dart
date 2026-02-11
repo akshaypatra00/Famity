@@ -10,11 +10,6 @@ class FamilyChatPage extends StatefulWidget {
   State<FamilyChatPage> createState() => _FamilyChatPageState();
 }
 
-class _FamilyChatPageState extends State<FamilyChatPage> {
-  final supabase = Supabase.instance.client;
-  final TextEditingController _controller = TextEditingController();
-
-  String? myName;
   String? myProfileImage;
   bool profileLoaded = false;
 
