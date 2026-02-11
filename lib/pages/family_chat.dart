@@ -7,8 +7,7 @@ class FamilyChatPage extends StatefulWidget {
   const FamilyChatPage({super.key, required this.familyCode});
 
   @override
-  State<FamilyChatPage> createState() => _FamilyChatPageState();
-}
+  State<FamilyChatPage> createState() 
 
   String? myProfileImage;
   bool profileLoaded = false;
