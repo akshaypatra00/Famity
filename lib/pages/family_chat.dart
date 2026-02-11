@@ -9,8 +9,6 @@ class FamilyChatPage extends StatefulWidget {
   String? myProfileImage;
   bool profileLoaded = false;
   void initState() {
-    super.initState();
-    _loadMyProfile();
   }
 
   Future<void> _loadMyProfile() async {
